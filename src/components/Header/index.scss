@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    gap: 3rem;
+        
+    & input {
+      width: 100%;
+    }
+    & button {
+      background-color: #646cff;
+      color: #fff;
+      transition: background-color 0.25s;
+      &:hover {
+        background-color: #5259d9;
+      }
+    }
+  }

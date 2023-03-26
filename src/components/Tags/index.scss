@@ -1,0 +1,10 @@
+.tags {
+    align-self: flex-start;
+    display: flex;
+    gap: 1rem;
+    & span {
+        text-decoration: underline;
+        color: #646cff;
+        cursor: pointer;
+    }
+}

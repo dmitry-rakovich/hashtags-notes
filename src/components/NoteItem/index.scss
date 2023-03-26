@@ -1,0 +1,38 @@
+.note {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: auto;
+    gap: 1rem;
+    width: 300px;
+    margin: 0 auto;
+    height: 250px;
+    background: #e1e16d;
+    padding: 0.5rem;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    & textarea, & p {
+        width: 100%;
+    }
+    & textarea {
+        resize: none;
+        height: 65%;
+        border-radius: 8px;
+        padding: 10px;
+        line-height: 1.5;
+    }
+    & p {
+        border: 1px solid transparent;
+        height: 65%;
+        overflow: auto;
+    }
+    & button {
+        flex: 1;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: flex-end;
+    }
+}
